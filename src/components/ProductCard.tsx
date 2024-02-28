@@ -42,7 +42,7 @@ const ProductCard = ({ product }: any) => {
       )}
       <div onClick={() => handleShowModal(product)}>
         <div key={product.id} className="border p-4">
-          <img src={product.img} alt="" className="w-full" />
+          <img src={product.img} alt="" className="w-full h-[225px]" />
           <h3 className="text-lg font-bold truncate mt-4 mb-2">
             {product.name}
           </h3>
